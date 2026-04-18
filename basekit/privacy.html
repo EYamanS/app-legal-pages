@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Basekit</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fff; color: #333; line-height: 1.7; padding: 40px 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { color: #E87722; margin-bottom: 8px; }
+        .updated { color: #666; margin-bottom: 40px; font-size: 0.9em; }
+        h2 { color: #333; margin: 32px 0 16px; font-size: 1.3em; }
+        p { margin-bottom: 16px; }
+        ul { margin: 16px 0 16px 24px; }
+        li { margin-bottom: 8px; }
+        a { color: #E87722; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: April 18, 2026</p>
+
+        <p>Basekit is operated by Glyde Games ("we", "our", or "us"). This Privacy Policy explains how we collect, use, and safeguard your information when you use the Basekit mobile application. Basekit is designed from the ground up as an offline-first, on-device AI assistant — the vast majority of what you do in the app never leaves your phone.</p>
+
+        <h2>Information We Collect</h2>
+        <p><strong>Information you provide:</strong></p>
+        <ul>
+            <li>Account information via Apple Sign-In or email/password registration (managed by Supabase Auth)</li>
+            <li>Your subscription purchase (processed by Apple, managed by RevenueCat)</li>
+            <li>Communications you send to us directly (support email)</li>
+        </ul>
+
+        <p><strong>Information collected automatically:</strong></p>
+        <ul>
+            <li>Anonymous product usage events (via PostHog) — screen views, feature interactions, anonymized performance metrics. No chat content, no photos, no location.</li>
+            <li>Anonymous crash reports (via PostHog) — used only to fix bugs.</li>
+            <li>Subscription lifecycle events (via RevenueCat) — purchase, renewal, cancellation.</li>
+        </ul>
+
+        <h2>What Never Leaves Your Device</h2>
+        <p><strong>Chat messages.</strong> Every question you ask Basekit is processed by the Gemma 4 language model running directly on your iPhone. Neither your prompt nor the assistant's response is ever transmitted to any server.</p>
+        <p><strong>Photos.</strong> When you use the Identify feature to photograph a plant, injury, or animal, the image is analyzed on-device using Apple's MobileCLIP-S2 Core ML model. Photos never leave your phone and are not uploaded to any service.</p>
+        <p><strong>Location.</strong> If you grant location permission, Basekit uses your GPS fix only to tailor answers to your region (local snakes, plants, wildlife; altitude-aware medical advice; the local emergency number). Your coordinates are never transmitted.</p>
+        <p><strong>Conversation history.</strong> Past conversations are stored locally in an encrypted SQLite database on your device. Deleting the app deletes them.</p>
+
+        <h2>How We Use Information That Does Leave the Device</h2>
+        <ul>
+            <li>To create and manage your Basekit account</li>
+            <li>To verify and renew your subscription</li>
+            <li>To understand how the app is used in aggregate and fix bugs</li>
+            <li>To respond to your support requests</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>We use the following third-party services. Each has its own privacy policy governing its use of your data.</p>
+        <ul>
+            <li><strong>Supabase</strong> — Authentication, account profile storage, knowledge pack catalog</li>
+            <li><strong>RevenueCat</strong> — Subscription management and receipt validation</li>
+            <li><strong>PostHog (EU Cloud)</strong> — Anonymous product analytics and crash reports</li>
+            <li><strong>Apple</strong> — App Store purchase and delivery, Sign in with Apple</li>
+            <li><strong>Hugging Face</strong> — Source of the Gemma 4 AI model file downloaded to your device on first launch</li>
+        </ul>
+
+        <h2>No Tracking, No Ads</h2>
+        <p>Basekit does not use the iOS Advertising Identifier (IDFA), does not show the App Tracking Transparency prompt, does not share data with advertising networks, and does not link your device data across apps or websites. We do not work with data brokers.</p>
+
+        <h2>Your Rights</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access the personal data we hold about you</li>
+            <li>Delete your account and all associated data (Settings → Delete Account, or email us)</li>
+            <li>Cancel your subscription at any time via your Apple ID settings</li>
+            <li>Request an export of your account data</li>
+        </ul>
+
+        <h2>Data Retention</h2>
+        <p>Account data is retained while your account is active. When you delete your account, your Supabase profile row and associated records are permanently removed. On-device data (chat history, downloaded models) is removed when you delete the app.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>Basekit is rated 17+ and is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>Educational Reference, Not Medical Advice</h2>
+        <p>Basekit provides survival and first-aid information drawn from public-domain field manuals. It is educational reference material, not medical advice, and should never replace professional medical care or emergency services. In a life-threatening situation, contact local emergency services first.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy, please contact Glyde Games at:</p>
+        <p><a href="mailto:eyamansivrikaya@outlook.com">eyamansivrikaya@outlook.com</a></p>
+    </div>
+</body>
+</html>
